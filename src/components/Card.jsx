@@ -4,7 +4,7 @@ export default function Card({character, onClose}) {
    
    return (
       <div id = {id}>
-         <button onClick={onClose}>X</button>
+         <button onClick={()=>onClose(id)}>X</button>
          <h2>{name}</h2>
          <h2>{status}</h2>
          <h2>{species}</h2>
