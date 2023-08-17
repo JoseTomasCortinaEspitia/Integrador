@@ -12,8 +12,8 @@ export default function Card({character, onClose}) {
          <h2>{status}</h2>
          <h2>{species}</h2>
          <h2>{gender}</h2>
-         <h2>{origin.name}</h2>
-         {/* <h2>ORIGIN: {origin ? origin.name : ""}</h2> */}
+         {/* <h2>{origin.name}</h2> */}
+         <h2>ORIGIN: {origin ? origin.name : ""}</h2>
          <img src={image} alt='Not found' />
       </div>
    );
